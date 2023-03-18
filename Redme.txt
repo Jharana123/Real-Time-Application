@@ -1,0 +1,16 @@
+.First create 2 folder,1 is for Client and other is for Server.
+
+Server Folder:
+.Incase Server folder install express(it is used for manage server and routes).
+.Install cors for check the routes connect properly or Not.
+.Install nodemon globally.(It is not download for every project ,once you have download in your machine).
+It is used for  app not crashed every single change in server file.
+.Install socket.io for server to client connection.
+.Change Script file in package.json("script":"nodemon index.js") so we run the server using npm start command.
+It is optional.
+.You not change script file the run the server using nodemon index.js command(index.js is file name in server)
+
+Client:
+.In this  folder first install react application.
+.Install socket.io-client (this is for client to server connection).
+.Run the project using npm start.
